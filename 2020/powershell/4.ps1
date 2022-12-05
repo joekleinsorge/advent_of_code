@@ -1,5 +1,5 @@
 begin {
-    $file = Import-Csv -Path "C:\Users\y5171.CSX\Documents\3.csv"
+    $file = Import-Csv -Path "3.csv"
     $i = 0
 }
 

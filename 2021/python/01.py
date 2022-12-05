@@ -1,6 +1,6 @@
 def counter() -> int:
 
-    with open(r"C:\Users\Josep\OneDrive\Scripts\adventOfCode\2021\01-input.txt") as data:
+    with open(r"01-input.txt") as data:
         lines = [x.strip() for x in data.readlines()]
 
     count = 0

@@ -1,5 +1,4 @@
-#$file = Import-Csv -Path "C:\Users\y5171.CSX\OneDrive - CSX\Scripts\Fun\Book1.csv"
-$file = Get-content -Path "C:\Users\y5171.CSX\Desktop\1664.txt"
+$file = Get-content -Path "1.txt"
 
 foreach ($number in $file) {
     #Write-Host "Number is: $number"
