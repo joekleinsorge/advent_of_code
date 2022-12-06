@@ -4,9 +4,10 @@ on:
   schedule:
     - cron: '50 * 1-25 12 *'
   workflow_dispatch:
+  push:
 
 jobs:
-  update:
+  update-readme-badges:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
