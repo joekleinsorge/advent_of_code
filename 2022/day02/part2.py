@@ -6,6 +6,11 @@ Loop through list
 Output total
 '''
 
+outcome = {
+    'x': 0, # Lose
+    'y': 3, # Draw
+    'z': 6  # Win
+}
 
 wining_moves = {
     'A': 'Y', # Paper beats rock
@@ -29,7 +34,7 @@ shape_score = {
 def calculate_score(line):
     split_line = line.split(" ")
     opp = split_line[0]
-    response = split_line[1]
+    outcome = split_line[1]    
 
     if tie_moves[opp] == response:
         return 3 + shape_score[response] # 3 points for a draw + shape score
