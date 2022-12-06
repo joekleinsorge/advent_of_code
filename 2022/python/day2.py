@@ -1,8 +1,11 @@
 '''
+Part 1
 Loop through list
     calculate score for each line
     add score to total
 Output total
+Part 2
+
 '''
 
 wining_moves = {
@@ -32,13 +35,15 @@ def calculate_score(line):
     return 0 + shape_score[right_char] # 0 points for a loss + shape score
 
 
-def main():
+def part1():
     with open('2.txt') as f:
         total = 0
         for line in f:
             total += calculate_score(line)
         return print(total)
 
+def part2():
+    return
 
 if __name__ == "__main__":
-    main()
+    part1()
