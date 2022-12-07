@@ -7,7 +7,7 @@ Output highest
 '''
 
 def main():
-    with open('1.txt') as f:
+    with open('input.txt') as f:
         highest = 0
         sum = 0
         for line in f:

@@ -9,7 +9,7 @@ Output total of highest, second highest, third highest
 '''
 
 def main():
-    with open('1.txt') as f:
+    with open('input.txt') as f:
         highest = 0
         second_highest = 0
         third_highest = 0
