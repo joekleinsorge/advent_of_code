@@ -24,6 +24,12 @@ tie_moves = {
     'C': 'Z'  # Rock ties rock
 }
 
+losing_moves = {
+    'A': 'Z', # Rock loses to paper
+    'B': 'X', # Paper loses to scissors
+    'C': 'Y'  # Scissors loses to rock
+}
+
 shape_score = {
     'X': 1, # Rock is worth 1 point
     'Y': 2, # Paper is worth 2 points
@@ -33,14 +39,15 @@ shape_score = {
 
 def calculate_score(line):
     split_line = line.split(" ")
-    opp = split_line[0]
-    outcome = split_line[1]    
-
-    if tie_moves[opp] == response:
-        return 3 + shape_score[response] # 3 points for a draw + shape score
-    if wining_moves[opp] == response:
-        return 6 + shape_score[response] # 6 points for a win + shape score
-    return 0 + shape_score[response] # 0 points for a loss + shape score
+    opp = split_line[0].upper()
+    outcome = split_line[1].replace("\r", "").upper()
+    
+    if outcome == 'X':
+        return 0 + shape_score[losing_moves[opp]]
+    if outcome == 'Y':
+        return 3 + shape_score[tie_moves[opp]]
+    if outcome == 'Z':
+        return 6 + shape_score[wining_moves[opp]]
 
 
 def main():
@@ -48,8 +55,9 @@ def main():
     inputValues = inputFile.read().split("\n")
     total = 0
     for line in inputValues:
+        print(line)
         total += calculate_score(line)
-    return print(total)
+    print(total)
 
 
 if __name__ == "__main__":
