@@ -55,7 +55,6 @@ def main():
     inputValues = inputFile.read().split("\n")
     total = 0
     for line in inputValues:
-        print(line)
         total += calculate_score(line)
     print(total)
 
