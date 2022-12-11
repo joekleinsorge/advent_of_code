@@ -8,7 +8,7 @@ This is primarily a learning experience, and the code may not be following best 
 ## Languages
 
 | Year | Language                                                    | Stars |
-| ---- | ----------------------------------------------------------- |  ---- |
-| 2020 | [PowerShell](https://learn.microsoft.com/en-us/powershell/) |  |
-| 2021 | [Python](https://www.python.org/)                           ||
-| 2022 | [Go](https://golang.org/)                                   ||
+| ---- | ----------------------------------------------------------- | ----- |
+| 2020 | [PowerShell](https://learn.microsoft.com/en-us/powershell/) | 5     |
+| 2021 | [Python](https://www.python.org/)                           | 7     |
+| 2022 | [Go](https://golang.org/)                                   | 4     |
