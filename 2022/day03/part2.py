@@ -21,7 +21,6 @@ def main():
     inputFile = open("input.txt", "r")
     inputValues = inputFile.read().split("\n")
     sum = 0
-
     for i in range(0, len(inputValues), 3):
         firstSack = inputValues[i]
         secondSack = inputValues[i+1]
