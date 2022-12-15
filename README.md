@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/stars%20⭐-28-yellow)
 ![](https://img.shields.io/badge/days%20completed-14-red)
 
-This is primarily a learning experience, and the code may not be following best practices. I use this as a way to learn tryout a new language each year.
+Used primarily as a learning experience, the code found here may not be following best practices. I try to use this as a way to learn a new language each year.
 
 ## Languages
 
