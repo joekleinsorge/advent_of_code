@@ -18,5 +18,6 @@ func main() {
 		score += scores[scanner.Text()].f
 		score2 += scores[scanner.Text()].s
 	}
-	fmt.Println("Part 1: %d , Part2: %d" score2)
+	fmt.Println("Part 1: %d , Part2: %d", score2)
 }
+
