@@ -1,7 +1,7 @@
 # :christmas_tree: Advent of Code :santa:
 
-![](https://img.shields.io/badge/stars%20⭐-41-yellow)
-![](https://img.shields.io/badge/days%20completed-19-red)
+![](https://img.shields.io/badge/stars%20⭐-43-yellow)
+![](https://img.shields.io/badge/days%20completed-20-red)
 
 Used primarily as a learning experience, the code found here may not be following best practices. I try to use this as a way to learn a new language each year.
 
