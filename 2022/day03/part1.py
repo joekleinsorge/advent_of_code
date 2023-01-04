@@ -21,7 +21,7 @@ def checkSack(line):
 
 
 def main():
-    inputFile = open("input.txt", "r")
+    inputFile = open("in.txt", "r")
     inputValues = inputFile.read().split("\n")
     sum = 0
     for line in inputValues:

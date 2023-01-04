@@ -18,7 +18,7 @@ def checkSack(setOfSacks):
 
 
 def main():
-    inputFile = open("input.txt", "r")
+    inputFile = open("in.txt", "r")
     inputValues = inputFile.read().split("\n")
     sum = 0
     for i in range(0, len(inputValues), 3):
